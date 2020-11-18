@@ -1,7 +1,7 @@
 const catPussy = "zed-pwa-site-v1";
 const assets = [
   "/",
-  "/index.html",
+  "index.html",
   "css/style.css",
   "js/app.js",
   "images/cat1.jpg",
