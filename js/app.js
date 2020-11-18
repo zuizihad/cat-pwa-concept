@@ -33,3 +33,13 @@ const showCats = () => {
   container.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCats);
+
+//register the service worker
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker
+      .register("/serviceWorker.js")
+      .then((res) => console.log("service worker registered"))
+      .catch((err) => console.log("service is not registered", err));
+  });
+}
