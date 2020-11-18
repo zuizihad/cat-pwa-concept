@@ -20,11 +20,19 @@ const assets = [
   "images/cat14.jpg",
   "images/cat15.jpg",
 ];
-
+//store assets in cache
 self.addEventListener("install", (installEvent) => {
   installEvent.withUntil(
     caches.open(catPussy).then((cache) => {
       cache.addAll(assets);
+    })
+  );
+});
+//fetch assets from cache
+self.addEventListener("fetch", (fetchEvent) => {
+  fetchEvent.respondWith(
+    caches.match(fetchEvent.request).then((res) => {
+      return res || fetch(fetchEvent.request);
     })
   );
 });
