@@ -1,7 +1,7 @@
 {
     "name": "CAT PWA",
     "short_name": "cat",
-     "start_url": "index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
@@ -9,7 +9,19 @@
     "icons": [ 
         {
             "src": "/images/icons/icon1.jpg",
-            "type": "image/jpg", "sizes": "72x72"
+            "type": "image/jpg", "sizes": "72x72"          
+        },
+        {
+          "src": "/images/icons/icon1.jpg",
+          "type": "image/jpg",
+          "sizes": "512x512",
+          "purpose": "any maskable"
+        },
+        {
+          "src": "/images/icons/icon1.jpg",
+          "type": "image/jpg",
+         "sizes": "256x256"
+          
         }
     ]
 }
