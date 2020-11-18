@@ -9,46 +9,46 @@
     "icons": [ 
         
         {
-            "src": "/images/icons/icon72x72.jpg",
-            "type": "image/jpg", "sizes": "72x72"          
+            "src": "/images/icons/icon72x72.png",
+            "type": "image/png", "sizes": "72x72"          
         },
         {
-          "src": "/images/icons/icon96x96.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon96x96.png",
+          "type": "image/png",
           "sizes": "96x96",
           "purpose": "any maskable"
         },
         {
-          "src": "/images/icons/icon128x128.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon128x128.png",
+          "type": "image/png",
          "sizes": "128x128"
         }
         ,
         {
-          "src": "/images/icons/icon144x144.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon144x144.png",
+          "type": "image/png",
          "sizes": "144x144"
         }
         ,
         {
-          "src": "/images/icons/icon152x152.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon152x152.png",
+          "type": "image/png",
          "sizes": "152x152"
         }
         ,
         {
-          "src": "/images/icons/icon192x192.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon192x192.png",
+          "type": "image/png",
          "sizes": "192x192"
         },
         {
-          "src": "/images/icons/icon384x384.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon384x384.png",
+          "type": "image/png",
          "sizes": "384x384"
         },
         {
-          "src": "/images/icons/icon512x512.jpg",
-          "type": "image/jpg",
+          "src": "/images/icons/icon512x512.png",
+          "type": "image/png",
          "sizes": "512x512"
         }
     ]
