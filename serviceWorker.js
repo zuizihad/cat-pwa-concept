@@ -22,7 +22,7 @@ const assets = [
 ];
 //store assets in cache
 self.addEventListener("install", (installEvent) => {
-  installEvent.withUntil(
+  installEvent.waitUntil(
     caches.open(catPussy).then((cache) => {
       cache.addAll(assets);
     })
