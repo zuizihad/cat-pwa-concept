@@ -1,7 +1,7 @@
 {
     "name": "CAT PWA",
     "short_name": "cat",
-    "start_url": "index.html",
+    "start_url": "https://zuizihad.github.io/cat-pwa-concept/",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
